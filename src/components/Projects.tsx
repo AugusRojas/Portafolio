@@ -1,6 +1,6 @@
 import userPhoto from '../assets/user.jpeg'
 import Polirubro from '../assets/Polirubro.jpg'
-import Csharp from '../assets/Csharp.png'
+//import Csharp from '../assets/Csharp.png'
 import react from '../assets/React.png'
 import StreamLit from '../assets/Streamlit.png'
 import Python from '../assets/Python.jpg'
