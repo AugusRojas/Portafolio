@@ -4,9 +4,9 @@ import Contact from "../components/Contact"
 
 const Home = () => {
   return (
-    <div className="#e0e0e0 grey lighten-2">
+    <div className="">
     <nav>
-    <div className="nav-wrapper #424242 grey darken-3">
+    <div className="">
       <ul id="nav-mobile" className="right hide-on-med-and-down color ">
         <li><a>Sobre mí</a></li>
         <li><a>Proyectos</a></li>
