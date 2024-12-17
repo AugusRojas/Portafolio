@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="">
     <nav>
-    <div className="">
+    <div className="nav-wrapper">
       <ul id="nav-mobile" className="right hide-on-med-and-down color ">
         <li><a>Sobre mí</a></li>
         <li><a>Proyectos</a></li>
