@@ -35,7 +35,7 @@ const Projects = () => {
                 <div className="col s3">
                     <div className="card small">
                         <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
-                            <a href="https://proyectoclimaapi.netlify.app/"></a><img src={Clima} alt="Clima App" className='responsive-img' />
+                            <a href="https://proyectoclimaapi.netlify.app/" target='_blank'></a><img src={Clima} alt="Clima App" className='responsive-img' />
                         </div>
                         <div className="card-content">
                             <p>Aplicación de Clima, con consumo de API</p>
@@ -46,7 +46,7 @@ const Projects = () => {
                 <div className="col s3">
                     <div className="card small">
                         <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
-                            <a href=""><img src={Python} alt="Python" className='responsive-img' /></a>
+                            <a href="https://github.com/AugusRojas/Python.git" target='_blank'><img src={Python} alt="Python" className='responsive-img' /></a>
                         </div>
                         <div className="card-content">
                             <p>Proyectos Python</p>
@@ -56,10 +56,10 @@ const Projects = () => {
                 <div className="col s3">
                     <div className="card small">
                         <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
-                            <img src={React} alt="React" className='responsive-img' />
+                            <a href="https://github.com/AugusRojas/React.git" target='_blank'><img src={React} alt="React" className='responsive-img' /></a>
                         </div>
                         <div className="card-content">
-                            <p>Proyectos React</p>
+                             <p>Proyectos React</p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ const Projects = () => {
                 <div className="col s3">
                     <div className="card small">
                         <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
-                            <img src={Csharp} alt="C#" className='responsive-img' />
+                           <a href="" target='_blank'><img src={Csharp} alt="C#" className='responsive-img' /></a>
                         </div>
                         <div className="card-content">
                             <p>Proyectos C#</p>
