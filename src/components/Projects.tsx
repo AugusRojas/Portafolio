@@ -1,9 +1,9 @@
-import userPhoto from '../assets/user.jpeg'
 import Polirubro from '../assets/Polirubro.jpg'
-//import Csharp from '../assets/Csharp.png'
-import react from '../assets/React.png'
+import Csharp from '../assets/Csharp.png'
+import React from '../assets/React.png'
 import StreamLit from '../assets/Streamlit.png'
 import Python from '../assets/Python.jpg'
+import Clima from '../assets/Clima.png'
 
 const Projects = () => {
     return (
@@ -35,47 +35,18 @@ const Projects = () => {
                 <div className="col s3">
                     <div className="card small">
                         <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
-                            <img src={userPhoto} alt="User Photo" className='responsive-img' />
+                            <a href="https://proyectoclimaapi.netlify.app/"></a><img src={Clima} alt="Clima App" className='responsive-img' />
                         </div>
                         <div className="card-content">
                             <p>Aplicación de Clima, con consumo de API</p>
                         </div>
                     </div>
                 </div>
+
                 <div className="col s3">
                     <div className="card small">
                         <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
-                            <img src={userPhoto} alt="User Photo" className='responsive-img' />
-                        </div>
-                        <div className="card-content">
-                            <p>Aplicacación de reservas de bar Vaca's Food</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col s3">
-                    <div className="card small">
-                        <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
-                            <img src={userPhoto} alt="User Photo" className='responsive-img' />
-                        </div>
-                        <div className="card-content">
-                            <p>Alta, baja, modificación Vaca's Food (Bar)</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col s3">
-                    <div className="card small">
-                        <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
-                            <img src={userPhoto} alt="User Photo" className='responsive-img' />
-                        </div>
-                        <div className="card-content">
-                            <p>Esperanza (Centro Psiquiátrico)</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col s3">
-                    <div className="card small">
-                        <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
-                            <img src={Python} alt="User Photo" className='responsive-img' />
+                            <a href=""><img src={Python} alt="Python" className='responsive-img' /></a>
                         </div>
                         <div className="card-content">
                             <p>Proyectos Python</p>
@@ -85,10 +56,21 @@ const Projects = () => {
                 <div className="col s3">
                     <div className="card small">
                         <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
-                            <img src={react} alt="User Photo" className='responsive-img' />
+                            <img src={React} alt="React" className='responsive-img' />
                         </div>
                         <div className="card-content">
                             <p>Proyectos React</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col s3">
+                    <div className="card small">
+                        <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
+                            <img src={Csharp} alt="C#" className='responsive-img' />
+                        </div>
+                        <div className="card-content">
+                            <p>Proyectos C#</p>
                         </div>
                     </div>
                 </div>

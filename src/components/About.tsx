@@ -1,11 +1,11 @@
 import '../css/about.css';
-import userPhoto from '../assets/user.jpeg';
+import fotoPortada from '../assets/fotoPortada.jpg';
 
 const About = () => {
   return (
     <div className="container">
       <div className="row align-items-center">
-        <img className="col circle responsive-img imagen" src={userPhoto} alt="Foto de Rojas Carlos Augusto" />
+        <img className="col circle responsive-img imagen" src={fotoPortada} alt="Foto de Rojas Carlos Augusto" />
         <h2 className="col">Rojas Carlos Augusto</h2>
       </div>
       <p className="texto">
