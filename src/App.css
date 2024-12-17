@@ -60,23 +60,23 @@
 
 /* Texto adicional */
 .read-the-docs {
-  color: #888;
+  /* color: #888; */
 }
 
-/* Fondo y fuente general */
+Fondo y fuente general */
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to bottom, #000000, #434343);
-  color: white;
+  /* background: linear-gradient(to bottom, #000000, #434343);
+  color: white; */
 }
 
 /* Header */
 header {
   padding: 20px;
   text-align: center;
-  background: linear-gradient(to right, #8e44ad, #3498db);
-  color: white;
+  /* background: linear-gradient(to right, #8e44ad, #3498db);
+  color: white; */
   font-size: 2rem;
 }
 
@@ -86,7 +86,7 @@ header {
   text-align: center;
 }
 
-/* Footer */
+Footer
 footer {
   padding: 10px;
   text-align: center;
