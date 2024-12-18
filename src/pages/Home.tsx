@@ -6,7 +6,11 @@ const Home = () => {
   return (
   <div className="">
     <nav>
-    <div className="nav-wrapper">
+    <div className="nav-wrapper" style={{ 
+        backgroundColor: '#4CAF50', 
+        color: 'white', 
+        padding: '20px' 
+      }}>
       <ul id="nav-mobile" className="right hide-on-med-and-down color ">
         <li><a>Sobre mí</a></li>
         <li><a>Proyectos</a></li>
