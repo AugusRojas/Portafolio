@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <Router> 
       <div className="">
+        {/* 🚀 La barra de navegación es FIJA */}
         <nav>
           <div className="nav-wrapper" style={{ 
               backgroundColor: '#4CAF50', 
@@ -21,12 +22,15 @@ const Home = () => {
           </div>
         </nav>
 
-        <Routes>
-          <Route path="/" element={<About />} />  {/* Ruta inicial (/) */}
-          <Route path="/About" element={<About />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Contact" element={<Contact />} />
-        </Routes>
+        {/* 🚀 Este contenedor es FIJO y solo cambia el contenido de adentro */}
+        <main style={{ padding: '20px' }}>
+          <Routes>
+            <Route path="/" element={<About />} />  {/* Ruta inicial (/) */}
+            <Route path="/About" element={<About />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/Contact" element={<Contact />} />
+          </Routes>
+        </main>
       </div>
     </Router>
   )
