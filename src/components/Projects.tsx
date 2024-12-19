@@ -35,7 +35,7 @@ const Projects = () => {
                 <div className="col s3">
                     <div className="card small">
                         <div className="card-image" style={{ maxHeight: '150px', overflow: 'hidden' }}>
-                            <a href="https://proyectoclimaapi.netlify.app/" target='_blank'></a><img src={Clima} alt="Clima App" className='responsive-img' />
+                            <a href="https://proyectoclimaapi.netlify.app/" target='_blank'><img src={Clima} alt="Clima App" className='responsive-img' /></a>
                         </div>
                         <div className="card-content">
                             <p>Aplicación de Clima, con consumo de API</p>
