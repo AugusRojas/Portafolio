@@ -19,15 +19,15 @@ const Home = () => {
         </div>
       </nav>
 
-      <div id="about" style={{ padding: '100px 0' }}>
+      <div id="about" style={{ padding: '0px 0' }}>
         <About />
       </div>
 
-      <div id="projects" style={{ padding: '100px 0' }}>
+      <div id="projects" style={{ padding: '0px 0' }}>
         <Projects />
       </div>
 
-      <div id="contact" style={{ padding: '100px 0' }}>
+      <div id="contact" style={{ padding: '0 0' }}>
         <Contact />
       </div>
     </div>
