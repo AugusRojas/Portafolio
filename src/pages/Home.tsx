@@ -4,7 +4,9 @@ import Contact from "../components/Contact"
 
 const Home = () => {
   return (
-    <div className="">
+    <div style={{html
+      scroll-behavior: smooth;
+    }}}>
       <nav>
         <div className="nav-wrapper" style={{ 
             backgroundColor: '#4CAF50', 

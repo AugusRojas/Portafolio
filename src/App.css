@@ -8,6 +8,11 @@
   
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* Logo */
 .logo {
   height: 6em;
