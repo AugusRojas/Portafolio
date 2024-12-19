@@ -43,8 +43,6 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <br />
-        <br />
     </div>
   );
 };
