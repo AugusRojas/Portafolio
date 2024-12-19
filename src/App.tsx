@@ -3,13 +3,7 @@ import Home from './pages/Home.tsx'
 
 function App() {
   return (
-    <div 
-      style={{ 
-        // background: 'linear-gradient(135deg, #ff7e5f, #feb47b)', 
-        // minHeight: '100vh', 
-        // margin: 0 
-      }}
-    >
+    <div>
       <Home/>  
     </div>
   );
