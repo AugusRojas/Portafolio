@@ -1,38 +1,36 @@
 import About from "../components/About"
 import Projects from "../components/Projects"
 import Contact from "../components/Contact"
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <Router> 
-      <div className="">
-        {/* 🚀 La barra de navegación es FIJA */}
-        <nav>
-          <div className="nav-wrapper" style={{ 
-              backgroundColor: '#4CAF50', 
-              color: 'white', 
-              padding: '20px' 
-            }}>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
-              <li><Link to="/About">Sobre mí</Link></li>
-              <li><Link to="/Projects">Proyectos</Link></li>
-              <li><Link to="/Contact">Contactos</Link></li>
-            </ul>
-          </div>
-        </nav>
+    <div className="">
+      <nav>
+        <div className="nav-wrapper" style={{ 
+            backgroundColor: '#4CAF50', 
+            color: 'white', 
+            padding: '20px' 
+          }}>
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contactos</a></li>
+          </ul>
+        </div>
+      </nav>
 
-        {/* 🚀 Este contenedor es FIJO y solo cambia el contenido de adentro */}
-        <main style={{ padding: '20px' }}>
-          <Routes>
-            <Route path="/" element={<About />} />  {/* Ruta inicial (/) */}
-            <Route path="/About" element={<About />} />
-            <Route path="/Projects" element={<Projects />} />
-            <Route path="/Contact" element={<Contact />} />
-          </Routes>
-        </main>
+      <div id="about" style={{ padding: '100px 0' }}>
+        <About />
       </div>
-    </Router>
+
+      <div id="projects" style={{ padding: '100px 0' }}>
+        <Projects />
+      </div>
+
+      <div id="contact" style={{ padding: '100px 0' }}>
+        <Contact />
+      </div>
+    </div>
   )
 }
 
